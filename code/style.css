@@ -1,0 +1,14 @@
+@charset "utf8";
+
+*{
+    margin: 0px;
+}
+
+:root{
+    --color1: #F7B600;
+    --color1-text: #2a2a2a;
+
+    --color-title: #382900;
+    --color-background: #f7f7f7;
+    
+}
