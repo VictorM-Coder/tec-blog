@@ -5,10 +5,72 @@
 }
 
 :root{
-    --color1: #F7B600;
+    --color1-background: #F7B600;
     --color1-text: #2a2a2a;
 
     --color-title: #382900;
-    --color-background: #f7f7f7;
+    --color-background-title: #f7f7f7;
     
+    --font-title: serif;
+    --font-text: arial;
+}
+
+header{
+    background-color: var(--color1-background);
+    text-align: center;
+    
+}
+#title{
+    padding: 21px;
+    padding-bottom: 13px;
+}
+
+#title > h1{
+    font: bold 2.5em arial;
+}
+nav{
+    padding-bottom: 21px;
+    border-top: 1px solid var(--color1-title);
+    display: block;
+
+}
+
+#menu > li > a{
+    color: var(--color-background-title);
+    text-decoration: none;
+    font: bold normal 1.1em var(--font-text);
+    padding: 8px;
+}
+ul{
+    padding-inline-start: 0px;
+}
+li{
+    display: inline-block;
+    margin-top: 13px;
+    margin-right: 13px;
+}
+
+#menu > li > a:hover{
+    background-color: var(--color-background-title);
+    color: var(--color1-background);
+}
+main{
+    max-width: 950px;
+    margin: auto;
+}
+
+section{
+    max-width: 650px;
+    display: inline-block;
+}
+aside{
+    width: 250px;
+    float: right;
+   
+}
+
+
+
+footer{
+    text-align: center;
 }
