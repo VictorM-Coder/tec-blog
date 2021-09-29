@@ -29,6 +29,7 @@ body{
 header{
     background-color: var(--color1-background);
     text-align: center;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.158) ;
     
 }
 #title{
@@ -54,8 +55,9 @@ nav{
 }
 ul{
     padding-inline-start: 0px;
+    list-style: none;
 }
-li{
+nav > ul > li{
     display: inline-block;
     margin-top: 13px;
     margin-right: 13px;
@@ -78,6 +80,8 @@ h2{
     font: normal 1em var(--font-text);
     text-align: justify;
     text-indent: 3em;
+    margin-bottom: 1em;
+    line-height: 1.2em;
 }
 p.data-postagem{
     font-size: 0.9em;
@@ -97,6 +101,7 @@ article{
     margin-bottom: 21px;
     background-color: var(--color-background-title);
     padding: 21px;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.158) ;
     
 }
 aside{
@@ -107,6 +112,7 @@ aside{
 
 .imagem{
     text-align: center;
+    margin: 8px 0px;
 
 }
 img{
@@ -114,12 +120,13 @@ img{
 }
 
 h3{
-    font: bold 1.4em var(--font-title);
+    font: normal 1.2em var(--font-title);
 
     color: var(--color-background-title);
     background-color: var(--color1-background);
 
     padding: 5px;
+    margin-bottom: 3px;
 }
    
 .box-extras{
@@ -127,6 +134,7 @@ h3{
     padding: 13px;
     margin: 0px 0px 21px 21px;
     border-radius: 5px;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.158) ;
 }
 
 .box-extras > p{
@@ -138,7 +146,8 @@ footer > p{
     text-align: center;
     background-color: var(--color1-background);
     margin: auto;
-    max-width: 1000px;
+    max-width: 900px;
     padding: 13px;
     margin-bottom: 21px;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.158) ;
 }
